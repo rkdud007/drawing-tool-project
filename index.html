@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="jsCanvas" class="canvas"></canvas>
+    <div class="control">
+        <div class="control_range">
+            <input type="range" id="jsrange" min="0.1" max="5.0" value="2.5" step="0.1">
+        </div>
+        <div class="control_btns">
+            <button id="js_mode">Fill</button>
+            <button id="js_save">Save</button>
+        </div>
+        <div class="control_colors" id="jsColors">
+            <div class="control_color jscolor" style="background-color: black"></div>
+            <div class="control_color jscolor" style="background-color: white"></div>
+            <div class="control_color jscolor" style="background-color: red"></div>
+            <div class="control_color jscolor" style="background-color: yellow"></div>
+            <div class="control_color jscolor" style="background-color: green"></div>
+            <div class="control_color jscolor" style="background-color: blue"></div>
+            <div class="control_color jscolor" style="background-color: violet"></div>
+            <div class="control_color jscolor" style="background-color: blueviolet"></div>
+            <div class="control_color jscolor" style="background-color: gray"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

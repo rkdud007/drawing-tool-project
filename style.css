@@ -1,0 +1,52 @@
+@import "reset.css";
+body{
+    background-color: #f6f9fc;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+.canvas{
+    width: 900px;
+    height: 500px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.control{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.control_range{
+    margin-bottom: 30px;
+}
+.control_btns{
+    margin-bottom: 30px;
+}
+.control_btns button{
+    all:unset;
+    cursor: pointer;
+    background-color: white;
+    padding:5px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.control_btns button:active{
+    transform: scale(0.95);
+}
+.control_colors{
+    display: flex;
+
+}
+.control_color{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    cursor:pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
